@@ -1,5 +1,4 @@
-const BASE_URL =
-  "https://cloudshare-backend-production-c927.up.railway.app/api/v1.0";
+const BASE_URL = "https://cloudshare-backend-bn2m.onrender.com/api/v1.0";
 export const apiEndpoints = {
   FETCH_FILES: `${BASE_URL}/files/my`,
   TOGGLE_FILE: (id) => `${BASE_URL}/files/${id}/toggle-public`,
